@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java scipt</title>
+    <style>
+        *{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        h1{
+            border: 4px solid maroon;
+            border-width: 5px;
+            border-left: 50%;
+            border-right: 50%;
+
+        
+            color :maroon;
+            text-align: center;
+            margin-right: 500px;
+            margin-left: 500px;
+        }
+        button{
+            color:mediumvioletred;
+            text-align:center;
+        }
+        script{
+            color:coral;
+            text-align:center;
+        }
+        body{
+            border: 10px;
+            text-align:center;
+            background-color:khaki
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>COUNTER</h1>
+    <button onclick="btnFunction()">click me</button>
+    <p id="count"></p>
+     <script> 
+     let number = 0;
+         function btnFunction(){
+             document.getElementById("count").innerHTML = number;
+             number++;
+         }
+
+          
+          </script> 
+
+    
+    
+</body>
+</html>
